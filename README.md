@@ -38,3 +38,6 @@ Fork repository ini untuk memulai
 3. kemudian buatlah view yang membuat read data dari model tadi.
 
 tiap soal simpan ke branch yang berbeda.
+
+test ini menguji konsep dari laravel serta penggunaan blade serta proses pembangunan api
+
