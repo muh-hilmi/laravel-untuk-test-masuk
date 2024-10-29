@@ -33,11 +33,13 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 Fork repository ini untuk memulai
 
-1. buatlah sebuah model dengan nama blog dengan attribute field title, descriptions, author, date, dan created at dan updated at serta cover
+1. buatlah sebuah model dengan nama blog dengan attribute field title, descriptions, author, date, dan created at dan updated at serta cover berupa file image
 2. buatlah CRUD nya. dan endpoint tulis pada readme
-3. kemudian buatlah view yang membuat read data dari model tadi.
-
+3. kemudian buatlah view yang membuat read data dari model tadi. (cukup keluarkan data tidak perlu membuat view bagus)
 tiap soal simpan ke branch yang berbeda.
 
 test ini menguji konsep dari laravel serta penggunaan blade serta proses pembangunan api
 
+4. ubah kolom author menjadi record author
+
+test 4 untuk pengetesan lanjut
