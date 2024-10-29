@@ -15,8 +15,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/view/blogs', function () {
+
+    return view(
+        'blogs',
+        [
+            'page' => 'all blogs',
+            'posts' => Blog::latest()->get()
+        ]
+    );
 });
 
 //posts
