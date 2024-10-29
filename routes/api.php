@@ -1,8 +1,8 @@
 <?php
 
-use App\Models\User;
+use App\Http\Resources\BlogResource;
 use Illuminate\Http\Request;
-use App\Http\Resources\UserResource;
+use App\Models\Blog;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/blog', function () {
-    return UserResource::collection(User::all());
+    return BlogResource::collection(Blog::all());
 });
 
 
